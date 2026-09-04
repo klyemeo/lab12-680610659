@@ -48,7 +48,7 @@ const tasks: TaskCardProps[] = [
             <div className="container">
               {/* [ขั้นที่ 1] เปลี่ยน 2 บรรทัดนี้ให้ดึงค่าจากตัวแปรผ่าน { } */}
               <h2 className="text-center">{title}</h2>
-              <p className="text-center text-muted">ทั้งหมด {tasks[0].id} งาน   </p>
+              <p className="text-center text-muted">ทั้งหมด {tasks.length} งาน   </p>
             
               <TaskInput></TaskInput>
               {/* <div className="d-flex my-3">

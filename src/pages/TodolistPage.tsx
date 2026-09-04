@@ -25,7 +25,7 @@ const tasks: TaskCardProps[] = [
     id: "3",
     title: "Deploy app",
     description: "Push project to GitHub Pages",
-    isDone: false ,
+    isDone: true ,
   },
 ];
   /* ...ToDolist... */
